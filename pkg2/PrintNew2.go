@@ -1,5 +1,8 @@
 package pkg2
 
+import "fmt"
+
 func Printnew2() {
-	printnew("I am called from PrintNew2.go")
+	printnew(fmt.Sprintf("abcd%s", "1234"))
+	fmt.Printf("abcd%s", "1234")
 }
